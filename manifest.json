@@ -1,0 +1,12 @@
+{
+  "name": "GitHub Your Time",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Display github dates in local timezone.",
+  "content_scripts": [
+    {
+      "matches": [ "https://github.com/*" ],
+      "js": ["lib/moment.min.js", "src/convert-dates.js"]
+    }
+  ]
+}
