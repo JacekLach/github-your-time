@@ -1,8 +1,7 @@
 github-your-time
 --------------
 
-GitHub Your Time replaces changes the timezone of all dates on github to your
-local timezone.
+GitHub Your Timechanges the timezone of all dates on github to your local timezone.
 
 Inspired by https://github.com/frankshearar/github-differ
 
